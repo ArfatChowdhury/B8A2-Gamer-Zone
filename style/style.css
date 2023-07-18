@@ -73,6 +73,7 @@ nav ul li {
 .banner-section {
     margin: 50px 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .banner-content {
@@ -138,13 +139,12 @@ nav ul li {
 
 
 /* online games stats here  */
-main{
+main {
     margin: 30px 200px;
 
 }
-.online-games {
-    
-}
+
+.online-games {}
 
 .online-title {
     font-size: 2.9rem;
@@ -170,7 +170,7 @@ main{
 
 .online-games-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
 
@@ -180,7 +180,7 @@ main{
 
 .games-img {
     width: 100%;
-    
+
 }
 
 .games-des {
@@ -193,19 +193,49 @@ main{
 /* online games ends here  */
 
 /* play instant start here  */
-.play-instant-container{
-
+.play-instant-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    /* gap: 100px; */
 }
-.play-instant-content{
 
+.play-instant-content {
+    width: 35%;
+    margin: auto;
+    position: relative;
+    top: -125px;
 }
-.play-title{
 
+.play-title {
+    font-size: 2.9rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: right;
 }
-.play-imgs-container{
 
+.play-imgs-container {
+    width: 50%;
 }
-.play-img{
-    
+
+.play-img {}
+
+.big-img {
+    width: 80%;
+    position: relative;
+    left: 120px;
+}
+
+.small-img {
+    width: 40%;
+    position: relative;
+    top: -200px;
+}
+
+.play-des{
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 /* play instant ends here  */
