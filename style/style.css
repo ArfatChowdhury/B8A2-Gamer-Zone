@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+:root{
+    --linear: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    --linear2: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --secondary-color: #4EC5F7;
+    --des-color: #534C64;
+}
+/* nav section start here  */
+header{
+    margin: 30px 200px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    
+}
+.logo-text{
+    
+}
+
+.nav-item{
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+margin-right: 28px;
+}
+
+
+
+
+/* nav section ends here  */
