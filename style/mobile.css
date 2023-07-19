@@ -2,7 +2,7 @@
         /* header section starts  */
 
     header {
-        margin: 20px 40px !important;
+        margin: 19px 16px !important;
     }
 
 
@@ -32,6 +32,7 @@
     .banner-content {
         width: auto;
         text-align: center;
+        margin: auto;
     }
 
     .banner-img-container {
@@ -77,6 +78,10 @@
     }
     .play-title{
         text-align: center;
+    }
+    .banner-title1 {
+        text-align: center;
+        font-size: 5.5rem;
     }
 footer{
     /* margin: 40px 40px; */

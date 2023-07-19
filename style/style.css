@@ -84,6 +84,7 @@ nav ul li {
     width: 50%;
     padding-bottom: 20px;
     padding-left: 10px;
+    margin: auto;
 }
 
 .banner-title {
@@ -92,6 +93,11 @@ nav ul li {
     margin-bottom: 10px;
     margin-top: 100px;
 
+}
+.banner-img-container{
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 .banner-title1 {
