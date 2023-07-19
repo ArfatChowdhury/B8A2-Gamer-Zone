@@ -30,6 +30,7 @@
     .banner-content {
         width: auto;
         text-align: center;
+        padding-left: none;
     }
 
     .banner-img-container {

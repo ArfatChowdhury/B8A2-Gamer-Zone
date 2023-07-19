@@ -76,7 +76,12 @@ nav ul li {
 .banner-section {
     background-image: url("../images/Group\ 14.png");
     background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-size: 50%;
+    gap: 10px;
+    /* filter: over; */
+    
     margin: 50px 0;
     display: flex;
     justify-content: space-between;

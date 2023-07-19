@@ -33,6 +33,7 @@
         width: auto;
         text-align: center;
         margin: auto;
+        padding-left: none;
     }
 
     .banner-img-container {
