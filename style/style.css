@@ -60,6 +60,9 @@ nav ul li {
     margin-right: 28px;
     font-weight: 500;
 }
+.nav ul li:hover{
+    cursor: pointer;
+}
 
 .nav-item {
     padding: 18px 18px;
