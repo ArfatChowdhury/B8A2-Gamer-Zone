@@ -1,11 +1,77 @@
 @media screen and (max-width: 576px) {
-    nav{
+    header {
+        margin: 20px 40px !important;
+    }
+
+
+    nav {
         flex-direction: column;
     }
-    .online-games-container{
+
+    .logo-container {
+        /* flex-direction: column; */
+        margin-bottom: 40px;
+    }
+
+    ul {
+        flex-direction: column;
+
+    }
+
+    ul li {
+        margin-bottom: 20px;
+
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        width: auto;
+        text-align: center;
+    }
+
+    .banner-img-container {
+        width: 100%;
+    }
+
+    main {
+        margin: 20px 40px;
+    }
+    .online-games p{
+        text-align: center;
+    }
+    .online-games-container {
         grid-template-columns: 1fr;
     }
 
+    .play-instant-container{
+        flex-direction: column;
+    }
+    .play-instant-content{
+        width: auto;
+    }
+    .play-imgs-container{
+        width: auto;
+    }
+    .play-des{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .play-title{
+        text-align: center;
+    }
+footer{
+    margin: 40px 40px;
+}
+.footer-list{
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-list2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 
 
 
