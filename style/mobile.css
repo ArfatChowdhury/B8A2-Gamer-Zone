@@ -63,7 +63,7 @@
         text-align: center;
     }
 footer{
-    margin: 40px 40px;
+    /* margin: 40px 40px; */
 }
 .footer-list{
     grid-template-columns: repeat(3,1fr);
