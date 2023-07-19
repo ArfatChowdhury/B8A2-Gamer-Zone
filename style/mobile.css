@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    .online-games-container{
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+}

@@ -1,0 +1,37 @@
+@media screen and (min-width:576px) and (max-width: 960px) {
+    header{
+        margin: 20px 40px !important;
+    }
+    
+    
+    nav{
+        flex-direction: column;
+    }
+    .logo-container{
+        /* flex-direction: column; */
+        margin-bottom: 40px;
+    }
+    ul{
+        flex-direction: column;
+        
+    }
+    ul li{
+        margin-bottom: 20px;
+
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width:auto;
+    }
+    .banner-img-container{
+        width: 100%;
+    }
+    main{
+        margin: 20px 40px;
+    }
+    .online-games-container{
+        grid-template-columns: 1fr;
+    }
+}
