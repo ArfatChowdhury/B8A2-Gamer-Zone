@@ -39,6 +39,18 @@
     main {
         margin: 20px 40px;
     }
+    .gamer-content{
+        width: auto;
+        text-align: center;
+    }
+    .gamer-b-title{
+        margin-top: 20px;
+    }
+    .gamer-img {
+        width: auto;
+    }
+    .we-are-gamer {
+    flex-direction: column;}
     .online-games p{
         text-align: center;
     }

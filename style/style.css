@@ -83,6 +83,7 @@ nav ul li {
     background-image: url("../images/Group\ 14.png");
     width: 50%;
     padding-bottom: 20px;
+    padding-left: 10px;
 }
 
 .banner-title {
@@ -140,7 +141,56 @@ nav ul li {
 }
 
 /* banner part end here  */
+/* gamer section satrt here  */
+.we-are-gamer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.gamer-img {
+    width: 55%;
+}
+
+.gamer {
+    width: 100%;
+}
+
+.gamer-content {
+    text-align: right;
+    width: 45%;
+}
+
+.we-are-gamer small {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.gamer-title {
+    font-size: 2.9rem;
+    background: var(--linear2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.gamer-des{
+    font-weight: 400;
+    color: var(--des-color);
+    /* margin-bottom: 10px; */
+}
+.gamer-b-title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--des-color);
+    margin-bottom: 40px;
+    
+}
+
+
+/* gamer section ends here  */
 
 /* online games stats here  */
 main {
@@ -215,6 +265,7 @@ main {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
 .watch {
     color: #F948B2;
     font-weight: 600;
@@ -323,6 +374,7 @@ section div img {
 /* footer stat here  */
 footer {
     /* margin: 1000px auto; */
+    
     background: #0B0223;
     height: auto;
 }
