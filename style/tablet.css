@@ -90,6 +90,16 @@
     .play-title {
         text-align: center;
     }
+    .cat-box{
+        width: 100px;
+    }
+    .cat-img{
+        width: 40%;
+    }
+    .cat-des{
+        font-size: 0.8rem;
+    }
+    
 
     footer {
         /* margin: 40px 40px; */

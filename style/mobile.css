@@ -80,6 +80,18 @@
     .play-title{
         text-align: center;
     }
+    .cat-box{
+        width: 90px;
+    }
+    .cat-img{
+        width: 40%;
+    }
+    .cat-des{
+        font-size: 0.6rem;
+    }
+      .catagories-section{
+        gap: 10px;
+    }
     .banner-title1 {
         text-align: center;
         font-size: 5.5rem;
